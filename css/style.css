@@ -57,9 +57,6 @@ a {
   max-height: 12vh;
 }
 
-.scoial{
-  max-height: 5vh;
-}
 /*-------------head--------- */
 /*-------------header--------- */
 header {
@@ -95,6 +92,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
 }
 
 header ul {
@@ -143,7 +141,7 @@ header .sticky_logo {
 
 header.sticky .sticky_logo {
   display: block;
-  width: 50px;
+  width: 100px;
   height: 50px;
   margin-top: -10px;
 }
@@ -241,24 +239,27 @@ header.sticky ul li a {
 }
 
 .home {
-  background-image: url("../image/home.png");
-  height: 100vh;
+  background-image: url("../image/Flores.jpg");
+  height: 60vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  text-align: center;
+  text-align: start;
+  
 }
 
 .home h1 {
   font-family: 'Great Vibes', cursive;
-  font-size: 150px;
+  font-size: 140px;
   color: white;
-  padding-top: 10%;
+  padding-top: 5%;
+  text-shadow: 0.1em 0.1em 0.2em black
 }
 
 .home p {
   color: white;
+  text-shadow: 0.1em 0.1em 0.2em black
 }
 
 .home .content {
@@ -352,11 +353,16 @@ p {
 
 .about {
   position: relative;
-  padding-bottom: 70px;
+  padding-bottom: 80px;
 }
 
 .about .right {
   position: relative;
+}
+
+.about img {
+  width: 63vh;
+  height: 61vh;
 }
 
 .about .right::after {
@@ -365,8 +371,8 @@ p {
   top: 0;
   left: 0;
   background: #CC8C18;
-  width: 92%;
-  height: 61vh;
+  width: 90%;
+  height: 60vh;
   z-index: -1;
   margin: 50px;
 }
@@ -465,7 +471,7 @@ p {
 }
 
 .wrapper2 .grid {
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .wrapper2 .box {
