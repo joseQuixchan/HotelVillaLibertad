@@ -67,7 +67,7 @@ header {
 
 .header img {
   margin-top: 5px;
-  max-height: 6.5vh;
+  max-height: 100%;
 }
 
 .navbar {
@@ -141,7 +141,7 @@ header .sticky_logo {
 
 header.sticky .sticky_logo {
   display: block;
-  width: 100px;
+  min-width: 100px;
   height: 50px;
   margin-top: -10px;
 }
@@ -392,13 +392,14 @@ p {
 .about::before {
   content: '';
   position: absolute;
-  bottom: -5%;
+  bottom: -3%;
   left: 0;
   background-image: url("../image/line2.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 50px;
   width: 100%;
+  z-index: 1;
 }
 
 /*------------about------------*/
@@ -415,6 +416,7 @@ p {
 .wrapper .container {
   max-width: 50%;
   margin: auto;
+  
 }
 
 .wrapper .item {
@@ -468,6 +470,15 @@ p {
 .wrapper2 {
   position: relative;
   text-align: center;
+  background-image: url("../image/w3.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  min-height: 50vh;
+  max-width: 100%;
+  padding-bottom: 50px;
+  padding-top: 5px;
+  box-shadow: 0 0 20px 3px rgb(0 0 0 / 5%);
 }
 
 .wrapper2 .grid {
@@ -478,6 +489,8 @@ p {
   box-shadow: 0 0 20px 3px rgb(0 0 0 / 5%);
   padding: 20px;
   transition: 0.5s;
+  background-color: white;
+  border-radius: 10px;
 }
 
 .wrapper2 i {
@@ -486,8 +499,17 @@ p {
   font-size: 30px;
 }
 
+.wrapper2 h5 {
+  color: #fff;
+}
+
+.wrapper2 h2 {
+  color: #000;
+} 
+
 .wrapper2 h3 {
   font-size: 20px;
+  color: #000;
 }
 
 .wrapper2 span {
@@ -498,7 +520,7 @@ p {
 }
 
 .wrapper2 .box:hover {
-  background: #CC8C18;
+  background: #cc4b18;
   cursor: pointer;
 }
 
@@ -515,14 +537,14 @@ p {
 .wrapper2::after {
   content: '';
   position: absolute;
-  top: -22%;
+  top: 90%;
   left: 0;
-  background-image: url("../image/line1.png");
+  /*background-image: url("../image/line1.png");*/
   background-size: cover;
   background-repeat: no-repeat;
   height: 75px;
   width: 100%;
-  z-index: 2;
+  z-index: 1;
 }
 
 /*------------wrapper2------------*/
@@ -658,6 +680,7 @@ p {
 /*------------area------------*/
 .area img {
   margin: 0px 0 20px 80px;
+  width: 73%;
 }
 
 .area ul li {
