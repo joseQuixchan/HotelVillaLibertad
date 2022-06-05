@@ -980,6 +980,19 @@ footer .content h2 {
 footer p {
   color: #000;
 }
+
+footer svg {
+  background:#000;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+footer .social a {
+  padding: 10px 10px 10px 5px;
+  color: #cc4b18;
+
+}
+
 footer li {
   margin-bottom: 15px;
   opacity: 1;
@@ -1001,12 +1014,7 @@ footer .content .icon i {
   margin-right: 20px;
 }
 
-footer .social i {
-  padding: 10px;
-  background: grey;
-  margin-right: 10px;
-  border-radius: 50%;
-}
+
 
 footer .content {
   padding-top: 10px;
