@@ -370,8 +370,8 @@ p {
   position: absolute;
   top: 0;
   left: 0;
-  background: #CC8C18;
-  width: 90%;
+  background: #e5bb84;
+  width: 80%;
   height: 60vh;
   z-index: -1;
   margin: 50px;
@@ -520,7 +520,7 @@ p {
 }
 
 .wrapper2 .box:hover {
-  background: #cc4b18;
+  background: #b1aca9;
   cursor: pointer;
 }
 
@@ -989,8 +989,12 @@ footer svg {
 
 footer .social a {
   padding: 10px 10px 10px 5px;
-  color: #cc4b18;
-
+  color: #Ffff;
+  
+}
+footer .social a:hover {
+  color: rgb(99, 98, 98);
+  
 }
 
 footer li {
@@ -1015,7 +1019,6 @@ footer .content .icon i {
 }
 
 
-
 footer .content {
   padding-top: 10px;
   padding-bottom: 20px;
@@ -1023,6 +1026,38 @@ footer .content {
 }
 
 /*------------footer------------*/
+
+
+
+/*------------footer2------------*/
+.logosfooter {
+  background-color: #000;
+  height: 28vh;
+  text-align: center;
+}
+
+.logosfooter img {
+  max-width: 25%;
+  padding: 0px 20px 20px 20px;
+  display: flex;
+  margin: auto;  
+}
+
+.logosfooter p {
+  color: #9fa39f;
+  padding-top: 20px;
+}
+
+.logosfooter a {
+  color: rgb(31, 157, 207);
+}
+.logosfooter a:hover{
+  color:#313538;
+}
+/*------------footer2------------*/
+
+
+
 @media only screen and (max-width:768px) {
 
   /*------------home------------*/
