@@ -776,18 +776,32 @@ p {
 /*------------customer------------*/
 .customer .mtop {
   padding: 30px;
-  max-width: 60%;
+  max-width: 80%;
   margin: auto;
   text-align: center;
+}
+
+.grid3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  
+}
+
+.comentario {
+  background-color: #fff;
   box-shadow: 0 0 20px 3px rgb(0 0 0 / 5%);
+  padding: 15px;
+  border-radius: 15px;
 }
 
 .customer i {
   color: #CC8C18;
   font-size: 13px;
+
 }
 
-.customer .item h3 {
+.customer .comentario h3 {
   font-size: 20px;
 }
 
@@ -815,6 +829,15 @@ p {
 
 /*------------customer------------*/
 /*------------gallary------------*/
+
+.gallary {
+  
+  padding:  10px 0px 50px 0px;
+  box-shadow: 0 0 20px 3px rgb(0 0 0 / 5%);
+  background-color:#a4a4a421;
+
+}
+
 .gallary .item {
   position: relative;
   cursor: pointer;
@@ -915,33 +938,38 @@ p {
 
 /*------------blog------------*/
 /*------------map------------*/
+
+
+
 .map iframe {
   width: 100%;
 }
 
 /*------------map------------*/
-/*------------footer------------*/
-footer {
-  background: black;
-  color: white;
-  padding: 30px;
-}
 
 .subscribe {
-  text-align: center;
-  max-width: 50%;
+  padding: 45px;
+}
+.subscribe button{
   margin: auto;
+  padding: 15px 30px;
+  font-size: 18px;
 }
 
-.subscribe input {
-  width: 100%;
-  border-radius: 50px;
-  margin-right: 30px;
-  padding: 10px;
+
+
+
+
+
+/*------------footer------------*/
+footer {
+  background: rgba(233, 167, 24, 0.527);
+  color: white;
+  padding: 30px 30px;
 }
 
 footer .grid {
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
 
 footer .content h2 {
@@ -949,13 +977,16 @@ footer .content h2 {
   font-size: 23px;
 }
 
+footer p {
+  color: #000;
+}
 footer li {
   margin-bottom: 15px;
-  opacity: 0.5;
+  opacity: 1;
 }
 
-footer li i {
-  font-size: 13px;
+footer li  {
+  font-size: 19px;
   margin-right: 10px;
 }
 
@@ -978,8 +1009,8 @@ footer .social i {
 }
 
 footer .content {
-  padding-top: 60px;
-  padding-bottom: 50px;
+  padding-top: 10px;
+  padding-bottom: 20px;
   border-top: 2px solid rgba(255, 255, 255, 0.2);
 }
 
@@ -1161,6 +1192,9 @@ footer .content {
     height: 100%;
   }
 
+  .header img {
+    width: 50%;
+  }
   /*------------wrapper------------*/
   .wrapper .container {
     max-width: 90%;
