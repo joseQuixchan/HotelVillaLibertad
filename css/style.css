@@ -1212,7 +1212,10 @@ footer .content {
     flex-direction: column;
   }
 
- 
+  .head .address {
+    margin-top: 40px;
+    line-height: 1vh;
+  }
   
   .home h1 {
     font-size: 70px;
