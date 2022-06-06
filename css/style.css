@@ -67,7 +67,7 @@ header {
 
 .header img {
   margin-top: 5px;
-  max-height: 100%;
+  max-height: 6.5vh;
 }
 
 .navbar {
@@ -333,6 +333,11 @@ button span {
   width: 50%;
 }
 
+/* .about img {
+  width: 63vh;
+  height: 61vh;
+} */
+
 h3 {
   font-size: 35px;
   font-family: serif;
@@ -360,10 +365,7 @@ p {
   position: relative;
 }
 
-.about img {
-  width: 63vh;
-  height: 61vh;
-}
+
 
 .about .right::after {
   content: '';
@@ -988,9 +990,7 @@ footer svg {
 }
 
 footer .social a {
-  padding: 10px 10px 10px 5px;
   color: #Ffff;
-  
 }
 footer .social a:hover {
   color: rgb(99, 98, 98);
@@ -1018,12 +1018,22 @@ footer .content .icon i {
   margin-right: 20px;
 }
 
+.flex3 {
+  display: flex;
+  margin: 5px;
+}
+
+.flex3 a{
+  margin: auto auto auto 10px;
+}
 
 footer .content {
   padding-top: 10px;
   padding-bottom: 20px;
   border-top: 2px solid rgba(255, 255, 255, 0.2);
 }
+
+
 
 /*------------footer------------*/
 
@@ -1056,7 +1066,7 @@ footer .content {
 }
 /*------------footer2------------*/
 
-
+/*--------------------------------------------------Responsive----------------------------------*/
 
 @media only screen and (max-width:768px) {
 
@@ -1093,10 +1103,11 @@ footer .content {
 
   /*------------home------------*/
   /*------------about------------*/
-  .left, .right {
+  .left, .right{
     width: 100%;
   }
 
+  
   .area .content,
   .room .content,
   .about .content {
@@ -1162,11 +1173,19 @@ footer .content {
     max-width: 100%;
   }
 
+  .customer .grid3 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
   /*------------customer------------*/
   /*------------footer------------*/
   .subscribe {
     max-width: 100%;
   }
+
+ /*  footer .social {
+    flex-direction: column;
+  } */
 
   /*------------footer------------*/
 }
