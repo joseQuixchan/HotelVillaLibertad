@@ -57,6 +57,10 @@ a {
   max-height: 12vh;
 }
 
+.scoial{
+  max-height: 5vh;
+}
+
 /*-------------head--------- */
 /*-------------header--------- */
 header {
@@ -1208,6 +1212,8 @@ footer .content {
     flex-direction: column;
   }
 
+ 
+  
   .home h1 {
     font-size: 70px;
   }
@@ -1222,7 +1228,7 @@ footer .content {
   }
 
   .home {
-    height: 140vh;
+    height: 50vh;
   }
 
   .home .grid {
