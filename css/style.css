@@ -67,7 +67,7 @@ header {
 
 .header img {
   margin-top: 5px;
-  max-height: 6.5vh;
+  height: 6.5vh;
 }
 
 .navbar {
@@ -967,7 +967,7 @@ p {
 footer {
   background: rgba(233, 167, 24, 0.527);
   color: white;
-  padding: 30px 30px;
+  padding: 20px 30px;
 }
 
 footer .grid {
@@ -1029,7 +1029,6 @@ footer .content .icon i {
 
 footer .content {
   padding-top: 10px;
-  padding-bottom: 20px;
   border-top: 2px solid rgba(255, 255, 255, 0.2);
 }
 
@@ -1040,14 +1039,14 @@ footer .content {
 
 
 /*------------footer2------------*/
-.logosfooter {
+.resp {
   background-color: #000;
-  height: 28vh;
   text-align: center;
 }
 
-.logosfooter img {
-  max-width: 25%;
+.resp img {
+  width: 30%;
+  height: auto;
   padding: 0px 20px 20px 20px;
   display: flex;
   margin: auto;  
@@ -1178,16 +1177,6 @@ footer .content {
   }
 
   /*------------customer------------*/
-  /*------------footer------------*/
-  .subscribe {
-    max-width: 100%;
-  }
-
- /*  footer .social {
-    flex-direction: column;
-  } */
-
-  /*------------footer------------*/
 }
 
 @media only screen and (max-width:512px) {
