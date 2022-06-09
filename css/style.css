@@ -332,11 +332,6 @@ button span {
   width: 50%;
 }
 
-/* .about img {
-  width: 63vh;
-  height: 61vh;
-} */
-
 h3 {
   font-size: 35px;
   font-family: serif;
@@ -363,8 +358,6 @@ p {
 .about .right {
   position: relative;
 }
-
-
 
 .about .right::after {
   content: '';
@@ -486,7 +479,9 @@ p {
 }
 
 /*------------wrapper2------------*/
-/*------------room------------*/
+
+
+/*------------Habitaciones------------*/
 .room {
   margin-bottom: 50px;
   position: relative;
@@ -515,9 +510,7 @@ p {
   padding: 0;
 }
 
-/*------------room------------*/
 
-/*------------offer------------*/
 .offer img {
   width: 100%;
   height: 100%;
@@ -554,7 +547,8 @@ p {
   transform: translateY(-10px);
 }
 
-/*------------offer------------*/
+/*------------Habitaciones------------*/
+
 /*------------area------------*/
 .area img {
   margin: 0px 0 20px 80px;
@@ -586,72 +580,8 @@ p {
 }
 
 /*------------area------------*/
-/*------------offer2------------*/
-.offer2 .heading {
-  padding-top: 10%;
-  text-align: center;
-}
 
-.offer2 .heading h3 {
-  color: white;
-}
-
-.offer2.wrapper {
-  background-image: url("../image/w3.jpg");
-  height: 90vh;
-  background-attachment: scroll;
-}
-
-.offer2.timer {
-  padding-top: 0%;
-}
-
-.offer2.wrapper .container {
-  max-width: 85%;
-  margin: auto;
-}
-
-.offer2 .box {
-  background: white;
-  padding: 30px;
-  text-align: left;
-  transition: 0.5s;
-}
-
-.offer2 .box:hover {
-  transform: translateY(-10px);
-  cursor: pointer;
-}
-
-.offer2 .box h5 {
-  color: #CC8C18;
-  text-align: left;
-  font-weight: 400;
-  list-style: 5px;
-  word-spacing: 10px;
-}
-
-.offer2 .box h3 {
-  font-size: 20px;
-  margin: 10px 0 10px 0;
-}
-
-.offer2 label {
-  color: #CC8C18;
-}
-
-.offer2 .grid {
-  grid-template-columns: repeat(3, 1fr);
-}
-
-.offer2 .flex i {
-  margin: 0 20px 20px 0;
-  font-weight: 400;
-  color: #5c646e;
-}
-
-/*------------offer2------------*/
-/*------------customer------------*/
+/*------------comentarios------------*/
 .customer .mtop {
   padding: 30px;
   max-width: 80%;
@@ -704,10 +634,9 @@ p {
 .customer span {
   opacity: 0.7;
 }
+/*------------comentarios------------*/
 
-/*------------customer------------*/
 /*------------gallary------------*/
-
 .gallary {
   
   padding:  10px 0px 50px 0px;
@@ -748,83 +677,15 @@ p {
   transition: 0.5s;
   cursor: pointer;
 }
-
 /*------------gallary------------*/
-/*------------blog------------*/
-.blog .grid {
-  grid-template-columns: repeat(3, 1fr);
-}
 
-.blog .box {
-  box-shadow: 0 0 20px 3px rgb(0 0 0 / 5%);
-  transition: 0.5s;
-}
-
-.blog .box:hover {
-  transform: translateY(-10px);
-  cursor: pointer;
-}
-
-.blog .text {
-  padding: 20px;
-}
-
-.blog img {
-  width: 100%;
-  height: 100%;
-  position: relative;
-}
-
-.blog .img {
-  position: relative;
-  overflow: hidden;
-}
-
-.blog span {
-  position: absolute;
-  top: -3%;
-  left: -12%;
-  z-index: 1;
-  color: white;
-  background: #CC8C18;
-  padding: 20px 50px;
-  transform: rotate(-45deg);
-  font-size: 14px;
-}
-
-.blog .box h3 {
-  font-size: 20px;
-}
-
-.blog .box i {
-  margin-right: 10px;
-  color: #CC8C18;
-}
-
-.blog .box i label {
-  color: black;
-}
-
-.blog .box h3 {
-  margin: 15px 0;
-}
-
-.blog a {
-  color: #CC8C18;
-  font-size: 15px;
-}
-
-/*------------blog------------*/
 /*------------map------------*/
-
-
-
 .map iframe {
   width: 100%;
 }
-
 /*------------map------------*/
 
+/* ---------reservacion-------- */
 .subscribe {
   padding: 45px;
 }
@@ -833,10 +694,7 @@ p {
   padding: 15px 30px;
   font-size: 18px;
 }
-
-
-
-
+/* ---------reservacion-------- */
 
 
 /*------------footer------------*/
@@ -907,8 +765,6 @@ footer .content {
   padding-top: 10px;
   border-top: 2px solid rgba(255, 255, 255, 0.2);
 }
-
-
 
 /*------------footer------------*/
 
