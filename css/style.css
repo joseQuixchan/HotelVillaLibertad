@@ -24,7 +24,6 @@ li {
 
 a {
   text-decoration: none;
-  transition: 0.5s;
 }
 
 .flex {
@@ -43,12 +42,13 @@ a {
 }
 
 .head i {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
-  line-height: 50px;
+  line-height: 40px;
   background: #FAF3E7;
   text-align: center;
+  font-size: 18px;
   color: #CC8C18;
 }
 
@@ -60,6 +60,8 @@ a {
 .scoial{
   max-height: 5vh;
 }
+
+
 
 /*-------------head--------- */
 /*-------------header--------- */
@@ -294,10 +296,16 @@ button {
   outline: none;
   border: none;
   border-radius: 30px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+button:hover {
+  color:#313538;
 }
 
 button i {
-  margin-left: 20px;
+  margin-left: 10px;
   font-size: 25px;
 }
 
@@ -410,69 +418,7 @@ p {
 }
 
 /*------------about------------*/
-/*------------wrapper------------*/
-.wrapper {
-  background-image: url("../image/w.jpg");
-  height: 80vh;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
-.wrapper .container {
-  max-width: 50%;
-  margin: auto;
-  
-}
-
-.wrapper .item {
-  background: white;
-  padding: 50px;
-  margin-top: 15%;
-  border: 30px solid #F3F3F3;
-  border-bottom: none;
-}
-
-.wrapper .heading {
-  text-align: left;
-}
-
-.owl-nav .owl-next,
-.owl-nav .owl-prev {
-  height: 47px;
-  position: absolute;
-  top: 60%;
-  width: 26px;
-  cursor: pointer;
-  background: none !important;
-}
-
-.owl-nav .owl-prev {
-  left: 0;
-}
-
-.owl-nav .owl-next {
-  right: 53px;
-}
-
-.owl-nav .owl-next i,
-.owl-nav .owl-prev i {
-  background: white;
-  padding: 7px;
-  border-radius: 50%;
-  color: #CC8C18;
-  box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.05);
-  transition: 0.5s;
-}
-
-.owl-nav .owl-next i:hover,
-.owl-nav .owl-prev i:hover {
-  background: #CC8C18;
-  color: white;
-}
-
-/*------------wrapper------------*/
 /*------------wrapper2------------*/
 .wrapper2 {
   position: relative;
@@ -546,7 +492,6 @@ p {
   position: absolute;
   top: 90%;
   left: 0;
-  /*background-image: url("../image/line1.png");*/
   background-size: cover;
   background-repeat: no-repeat;
   height: 75px;
