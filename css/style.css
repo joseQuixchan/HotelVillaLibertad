@@ -264,6 +264,8 @@ header.sticky ul li a {
   text-shadow: 0.1em 0.1em 0.2em black
 }
 
+
+
 .home p {
   color: white;
   text-shadow: 0.1em 0.1em 0.2em black
@@ -328,6 +330,8 @@ button span {
   margin: 10px 0 20px 0;
 }
 
+
+
 .left, .right {
   width: 50%;
 }
@@ -343,6 +347,9 @@ h3 {
   padding: 20px;
 }
 
+.about span{
+  font-weight: bold;
+}
 p {
   line-height: 30px;
   color: #a4a4a4;
